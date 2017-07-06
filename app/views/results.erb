@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Awesome Scheduler App</title>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Varela+Round" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+            #headerdiv {
+    
+                background-color:#0e58ce;
+                color:white;
+                text-align:center;
+            }
+            
+            h1 {
+                
+               font-size:70px;
+
+            }
+            
+            h1 {
+               
+
+                font-family: 'Permanent Marker', cursive;
+
+            }
+            
+            body {
+                background: url('images/meticulous.jpg');
+                background-size:cover;
+                font-family: 'Varela Round', sans-serif;
+                font-size:20px;
+            }
+            
+           #mainpage {
+               
+               padding-left:25px;
+                padding-right:25px;
+               
+           }
+            
+           
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row header text-center">  
+            <div class="col-md-12" style="margin:30px;background-color: rgba(255, 255, 255, 0.5);">
+                    <h1>You have <span style="font-size:200%"><%= @minutes_left %></span> minutes left!</h1>
+                    <h1>Get to work!</h1>
+            </div>
+        </div>
+    </div>  
+
+        
+        
+    </body>
+    
+</html>
+
+
+
